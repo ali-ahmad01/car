@@ -162,6 +162,7 @@ header {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 100px;
+    padding-top: 20vh;
 }
 
 .main-h1 {
@@ -294,6 +295,7 @@ header {
 .team-container {
     text-align: center;
     margin-top: 100px;
+    padding-top: 20vh;
 }
 
 .team-h1 {
@@ -378,6 +380,7 @@ hr {
 .contact-container {
     margin-top: 100px;
     text-align: center;
+    padding-top: 20vh;
 }
 
 .contact-h1 {
