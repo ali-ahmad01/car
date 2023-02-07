@@ -32,7 +32,7 @@ ul {
     padding: 20px;
     color: whitesmoke;
     z-index: 40;
-    transition: 0.6s all ease-in;
+    transition: 0.5s all ease-in;
 }
 
 .nav-links {
