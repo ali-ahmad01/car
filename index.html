@@ -19,19 +19,19 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav id="nav" class="navbar">
         <h1 class="logo">ADVENTURE</h1>
         
         <ul class="nav-links">
-            <li class="li1"><a href="#">Home</a></li>
-            <li class="li2"><a href="#" onclick="sevices()">Services</a></li>
-            <li class="li3"><a href="#">Team</a></li>
-            <li class="ctn"><a href="#">Contact</a>
+            <li class="li1"><a href="#home">Home</a></li>
+            <li class="li2"><a href="#services" onclick="sevices()">Services</a></li>
+            <li class="li3"><a href="#team">Team</a></li>
+            <li class="ctn"><a href="#contact">Contact</a>
             </li>
         </ul>
         <img src="menu-btn.png" class="menu-btn">
     </nav>
-    <header>
+    <header id="home">
         <video autoplay loop muted class="bg-video">
             <source src="pexels-ojyrai-7727415.mp4">
         </video>
@@ -43,7 +43,7 @@
         </div>
     </header>
 
-    <div class="card-container">
+    <div id="services" class="card-container">
         <h1 class="main-h1">Our Services</h1>
         <p class="main-p">Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit. Non, quo.</p>
         <div class="card">
@@ -125,7 +125,7 @@
         <span class="arrow next" onclick="controller(1)">&#10095;</span>
     </div>
 
-    <div class="team-container">
+    <div id="team" class="team-container">
         <h1 class="team-h1">Our <span>Team</span></h1>
         <div class="div-hr">
             <hr>
@@ -154,7 +154,7 @@
         </div>
     </div>
 
-    <div class="contact-container">
+    <div id="contact" class="contact-container">
         <h1 class="contact-h1">Contact Us</h1>
         <div class="contact">
             <div class="contact-1">

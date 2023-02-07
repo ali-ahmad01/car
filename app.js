@@ -30,3 +30,18 @@ function slideshow(num) {
     }
     slides[num].style.display = "block";
 }
+
+let nav = document.querySelector("#nav")
+
+console.log(nav)
+
+
+
+
+window.addEventListener('scroll', function (){
+    if (window.scrollY >= 200) {
+        nav.style.backgroundColor = "black";
+    } else {
+        nav.style.backgroundColor = "transparent";
+    }
+})
