@@ -40,7 +40,7 @@ console.log(nav)
 
 window.addEventListener('scroll', function (){
     if (window.scrollY >= 200) {
-        nav.style.backgroundColor = "black";
+        nav.style.backgroundColor = "#212528";
     } else {
         nav.style.backgroundColor = "transparent";
     }
