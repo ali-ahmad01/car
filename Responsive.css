@@ -1,0 +1,557 @@
+@media only screen and (max-width:850px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: #484872;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 20%;
+    }
+
+    .nav-links li {
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .main-p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .main-p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .icon {
+        font-size: 30px;
+    }
+
+    .txt {
+        font-size: 23px;
+    }
+
+    .p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .card-2 {
+        margin-right: 0;
+    }
+
+    .card-3 {
+        margin-top: 310px;
+        position: absolute;
+    }
+
+    .Slider-container {
+        display: none;
+    }
+
+    .team-container {
+        margin-top: 380px;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .team-1 {
+        padding: 15px 40px;
+    }
+
+    .team-2 {
+        padding: 15px 40px;
+    }
+
+    .team-3 {
+        padding: 15px 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .team-2 {
+        margin-right: 0;
+    }
+
+    .team-3 {
+        position: absolute;
+        margin-top: 345px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .card-1 {
+        margin-right: 0;
+    }
+
+    .card-2 {
+        margin-right: 0;
+        margin-top: 300px;
+        position: absolute;
+    }
+
+    .card-3 {
+        margin-top: 600px;
+        position: absolute;
+    }
+
+    .team-container {
+        margin-top: 650px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .team-1 {
+        margin-right: 0;
+    }
+
+    .team-2 {
+        margin-top: 345px;
+        position: absolute;
+    }
+
+    .team-3 {
+        position: absolute;
+        margin-top: 690px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .txt {
+        font-size: 20px;
+    }
+
+    .p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 278px) {
+    .card-1 {
+        padding: 15px;
+    }
+
+    .card-2 {
+        padding: 15px;
+    }
+
+    .card-3 {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 263px) {
+    .p {
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .contact-1 {
+        border-radius: 5px;
+    }
+
+    .contact-2 {
+        border-radius: 5px;
+        position: absolute;
+        margin-top: 500px;
+        margin-top: 410px;
+    }
+
+    .input-1 {
+        width: 408px;
+    }
+
+    .input-2 {
+        width: 408px;
+    }
+
+    .input-3 {
+        width: 408px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-container {
+        margin-top: 400px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .contact-container {
+        margin-top: 740px;
+    }
+
+    .map {
+        width: 405px;
+        height: 330px;
+    }
+
+    .contact-2 {
+        margin-top: 375px;
+    }
+
+    .form-1 {
+        width: 370px;
+    }
+
+    .form-2 {
+        width: 370px;
+    }
+
+    .form-3 {
+        width: 370px;
+    }
+
+    .input-1 {
+        width: 312px;
+    }
+
+    .input-2 {
+        width: 312px;
+    }
+
+    .input-3 {
+        width: 312px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .map {
+        width: 335px;
+        height: 305px;
+    }
+
+    .contact-2 {
+        margin-top: 350px;
+    }
+
+    .contact-h2 {
+        font-size: 30px;
+    }
+
+    .form-1 {
+        width: 300px;
+    }
+
+    .form-2 {
+        width: 300px;
+    }
+
+    .form-3 {
+        width: 300px;
+    }
+
+    .input-1 {
+        width: 240px;
+    }
+
+    .input-2 {
+        width: 240px;
+    }
+
+    .input-3 {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .map {
+        width: 280px;
+        height: 290px;
+    }
+
+    .contact-2 {
+        margin-top: 325px;
+    }
+
+    .contact-h2 {
+        font-size: 25px;
+    }
+
+    .form-1 {
+        width: 245px;
+    }
+
+    .form-2 {
+        width: 245px;
+    }
+
+    .form-3 {
+        width: 245px;
+    }
+
+    .input-1 {
+        width: 188px;
+        font-size: 15px;
+    }
+
+    .input-2 {
+        width: 188px;
+        font-size: 15px;
+    }
+
+    .input-3 {
+        width: 188px;
+        font-size: 15px;
+    }
+
+    .inp-icon {
+        font-size: 20px;
+        margin-top: -3px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .map {
+        width: 225px;
+        height: 255px;
+    }
+
+    .contact-2 {
+        padding: 30px 15px;
+        margin-top: 295px;
+    }
+
+    .contact-h2 {
+        font-size: 22px;
+    }
+
+    .form-1 {
+        width: 200px;
+        padding-left: 40px;
+    }
+
+    .form-2 {
+        width: 200px;
+        padding-left: 40px;
+    }
+
+    .form-3 {
+        width: 200px;
+        padding-left: 40px;
+    }
+
+    .input-1 {
+        width: 158px;
+        font-size: 15px;
+    }
+
+    .input-2 {
+        width: 158px;
+        font-size: 15px;
+    }
+
+    .input-3 {
+        width: 158px;
+        font-size: 15px;
+    }
+
+    .inp-icon {
+        font-size: 17px;
+        margin-top: -1px;
+        margin-left: -23px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    footer {
+        padding: 55px 80px;
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    footer {
+        padding: 55px 70px;
+    }
+
+    .footer-1 {
+        margin-right: 130px;
+    }
+
+    .footer-2 {
+        margin-right: 130px;
+    }
+
+    .footer-3 {
+        margin-right: 130px;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    footer {
+        padding: 55px 70px;
+    }
+
+    .footer-icon-3 {
+        margin-right: 0px;
+    }
+
+    .footer-icon-4 {
+        cursor: pointer;
+        width: 28px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: -98px;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    footer {
+        margin-top: 485px;
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .footer-1 {
+        margin-right: 100px;
+    }
+
+    .footer-2 {
+        margin-right: 100px;
+    }
+
+    .footer-3 {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .footer-1 {
+        margin-right: 250px;
+    }
+
+    .footer-2 {
+        margin-right: 0px;
+    }
+
+    .footer-3 {
+        margin-top: 230px;
+        margin-left: -483px;
+    }
+
+    .footer-4 {
+        margin-top: 230px;
+        margin-left: 157px;
+    }
+
+    .footer-icon-3 {
+        margin-right: 5px;
+    }
+
+    .footer-icon-4 {
+        cursor: pointer;
+        width: 28px;
+        margin-top: 1px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .footer-1 {
+        margin-right: 170px;
+    }
+
+    .footer-2 {
+        margin-right: 0px;
+    }
+
+    .footer-3 {
+        margin-top: 230px;
+        margin-left: -402px;
+    }
+
+    .footer-4 {
+        margin-top: 230px;
+        margin-left: 77px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer-1 {
+        margin-right: 100px;
+    }
+
+    .footer-2 {
+        margin-right: 0px;
+    }
+
+    .footer-3 {
+        margin-top: 230px;
+        margin-left: -333px;
+    }
+
+    .footer-4 {
+        margin-top: 230px;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .footer-1 {
+        margin-right: 50px;
+    }
+
+    .footer-2 {
+        margin-right: 0px;
+    }
+
+    .footer-3 {
+        margin-top: 230px;
+        margin-left: -283px;
+    }
+
+    .footer-4 {
+        margin-top: 230px;
+        margin-left: -42px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .footer-1 {
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+
+    .footer-2 {
+        margin-right: 0px;
+        margin-top: 200px;
+        margin-left: -110px;
+    }
+
+    .footer-3 {
+        margin-left: -124px;
+        margin-right: 0;
+        margin-top: 425px;
+    }
+
+    .footer-4 {
+        margin-top: 630px;
+        margin-left: -103px;
+    }
+}

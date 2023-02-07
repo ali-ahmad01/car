@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    cursor: default;
+}
+
+body {
+    background-color: #007cff1c;
+    font-family: 'Kanit', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+    position: relative;
+}
+
+.li1::after {
+    content: '';
+    background-color: #fc036b;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: -3px;
+    left: 22px;
+    transition: 0.5s all;
+    transform: translateX(-50%);
+}
+
+.li1:hover:after {
+    width: 100%;
+}
+
+.li2::after {
+    content: '';
+    background-color: #fc036b;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: -3px;
+    left: 32px;
+    transition: 0.5s all;
+    transform: translateX(-50%);
+}
+
+.li2:hover:after {
+    width: 100%;
+}
+
+.li3::after {
+    content: '';
+    background-color: #fc036b;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: -3px;
+    left: 21px;
+    transform: translateX(-50%);
+    transition: 0.5s all;
+}
+
+.li3:hover:after {
+    width: 100%;
+}
+
+.nav-links a {
+    color: white;
+}
+
+header {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.54));
+}
+
+.bg-video {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+    margin-top: 235px;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background-color: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.card-container {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.main-h1 {
+    font-weight: 100;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.main-p {
+    padding-top: 5px;
+    font-size: 18px;
+    color: #313131bf;
+    font-family: 'Kanit', sans-serif;
+}
+
+.card {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-1 {
+    background-color: #212528;
+    border-radius: 5px;
+    color: white;
+    margin-right: 15px;
+    padding: 20px;
+}
+
+.card-2 {
+    background-color: #212528;
+    border-radius: 5px;
+    color: white;
+    margin-right: 15px;
+    padding: 20px;
+}
+
+.card-3 {
+    background-color: #212528;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.txt {
+    font-weight: 100;
+    padding-top: 10px;
+    font-size: 27px;
+}
+
+.p {
+    line-height: 25px;
+    font-weight: 100;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    color: #cbcbcb;
+}
+
+.btn {
+    background-color: #ecb102;
+    color: #212528;
+    border: 0;
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Slider-container {
+    position: relative;
+    margin-top: 75px;
+    margin-left: 110px;
+    height: 84%;
+}
+
+.slide img {
+    width: 90%;
+    height: 500px;
+    border-radius: 15px;
+    border: 4px solid black;
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.next {
+    right: 126px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.caption {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px 0;
+    font-family: sans-serif;
+    cursor: default;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 6px;
+}
+
+.slide {
+    display: none;
+}
+
+.team-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.team-h1 {
+    font-weight: 1;
+    font-size: 40px;
+}
+
+span {
+    color: blue;
+}
+
+.div-hr {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin-top: 15px;
+    border: 1px solid #bebebe;
+    border-bottom: 0;
+    width: 275px;
+}
+
+.team {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.team-img {
+    width: 160px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.team-1 {
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 15px 60px;
+}
+
+.team-2 {
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 15px 60px;
+}
+
+.team-3 {
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    padding: 15px 60px;
+}
+
+.h3 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 1;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.team-p {
+    font-family: 'Kanit', sans-serif;
+    padding-top: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.team-btn {
+    font-family: 'Kanit', sans-serif;
+    margin-top: 15px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contact-h1 {
+    font-size: 40px;
+    font-weight: 1;
+}
+
+.contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-1 {
+    border: 2px solid #111219;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.contact-2 {
+    background-color: #111219;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 20px;
+}
+
+.map {
+    width: 500px;
+    height: 375px;
+}
+
+.contact-h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form-1 {
+    border: 1px solid white;
+    margin-top: 20px;
+    padding-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-2 {
+    border: 1px solid white;
+    margin-top: 15px;
+    padding-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-3 {
+    border: 1px solid white;
+    margin-top: 15px;
+    padding-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-1 {
+    width: 350px;
+    font-size: 18px;
+    color: white;
+    background-color: #101117;
+    border: 0;
+    padding-right: 10px;
+    outline: none;
+}
+
+.input-2 {
+    width: 350px;
+    font-size: 18px;
+    background-color: #101117;
+    color: white;
+    border: 0;
+    padding-right: 10px;
+    outline: none;
+}
+
+.input-3 {
+    width: 350px;
+    font-size: 18px;
+    color: white;
+    background-color: #101117;
+    border: 0;
+    padding-right: 10px;
+    outline: none;
+}
+
+.inp-icon {
+    color: white;
+    text-align: left;
+    margin-top: -5px;
+    position: absolute;
+    font-size: 25px;
+    margin-left: -40px;
+}
+
+.contact-btn {
+    margin-top: 20px;
+    border: 0;
+    padding: 8px 15px;
+    font-size: 18px;
+    color: black;
+    border-radius: 2px;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    background-color: #25262a;
+    color: white;
+    padding: 60px 100px;
+}
+
+.footer-1 {
+    margin-right: 150px;
+}
+
+.footer-2 {
+    margin-right: 150px;
+}
+
+.footer-3 {
+    margin-right: 150px;
+}
+
+.footer-h1-1 {
+    font-weight: 1;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer-h1-1::after {
+    content: '';
+    position: absolute;
+    background-color: #fc036b;
+    width: 50%;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.footer-container-p {
+    padding-top: 25px;
+}
+
+.footer-p {
+    color: #5e5e62;
+    padding-bottom: 10px;
+}
+
+.footer-icon-1 {
+    cursor: pointer;
+    width: 28px;
+    margin-right: 5px;
+}
+
+.footer-icon-2 {
+    cursor: pointer;
+    width: 28px;
+    margin-right: 5px;
+}
+
+.footer-icon-3 {
+    cursor: pointer;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.footer-icon-4 {
+    cursor: pointer;
+    width: 28px;
+}
+
+.scroll-up {
+    color: white;
+    padding: 5px 5px;
+    border-radius: 50%;
+    border: 0;
+    background-color: black;
+}
