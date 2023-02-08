@@ -160,9 +160,7 @@ header {
 
 .card-container {
     text-align: center;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .main-h1 {
@@ -294,8 +292,7 @@ header {
 
 .team-container {
     text-align: center;
-    margin-top: 100px;
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .team-h1 {
@@ -378,9 +375,8 @@ hr {
 }
 
 .contact-container {
-    margin-top: 100px;
     text-align: center;
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .contact-h1 {
@@ -561,8 +557,18 @@ footer {
 
 .scroll-up {
     color: white;
-    padding: 5px 5px;
+    padding: 10px 13px;
     border-radius: 50%;
     border: 0;
     background-color: black;
+    font-size: 25px;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+}
+
+.bi {
+    cursor: pointer;
 }

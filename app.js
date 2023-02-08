@@ -33,15 +33,21 @@ function slideshow(num) {
 
 let nav = document.querySelector("#nav")
 
-console.log(nav)
-
-
-
-
-window.addEventListener('scroll', function (){
+window.addEventListener('scroll', function () {
     if (window.scrollY >= 200) {
         nav.style.backgroundColor = "#212528";
     } else {
         nav.style.backgroundColor = "transparent";
     }
-})
+});
+
+
+let scrollbtn = document.getElementById("scroll");
+
+window.addEventListener('scroll', function () {
+    if (window.scrollY >= 200) {
+        scrollbtn.style.display = "block";
+    } else {
+        scrollbtn.style.display = "none";
+    }
+});
