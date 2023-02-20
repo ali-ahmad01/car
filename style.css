@@ -169,9 +169,11 @@ header {
     color: white;
     position: absolute;
     right: 70px;
-    top: 480px;
+    top: 450px;
     font-size: 18px;
     cursor: pointer;
+    background-color: transparent;
+    border: 0;
 }
 
 .card-container {
