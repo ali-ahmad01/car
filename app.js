@@ -1,3 +1,4 @@
+// Slider
 const menuBtn = document.querySelector('.menu-btn');
 const navlinks = document.querySelector('.nav-links');
 
@@ -31,6 +32,7 @@ function slideshow(num) {
     slides[num].style.display = "block";
 }
 
+// Navbar
 let nav = document.querySelector("#nav")
 
 window.addEventListener('scroll', function () {
@@ -41,13 +43,32 @@ window.addEventListener('scroll', function () {
     }
 });
 
-
+// Scroll Up Button
 let scrollbtn = document.getElementById("scroll");
 
 window.addEventListener('scroll', function () {
-    if (window.scrollY >= 200) {
+    if (window.scrollY >= 400) {
         scrollbtn.style.display = "block";
     } else {
         scrollbtn.style.display = "none";
     }
 });
+
+// window.addEventListener('scroll', function () {
+//     if (window.scrollY >= 2320) {
+//         scrollbtn.style.backgroundColor = "white";
+//         scrollbtn.style.color = "black";
+//     } else {
+//         scrollbtn.style.backgroundColor = "black";
+//         scrollbtn.style.color = "white";
+//     }
+// });
+
+function scrollUp() {
+    window.scrollBy(0, -2610);
+}
+
+// Scroll Down Button
+function scrollDown() {
+    window.scrollBy(0, 2610);
+}
