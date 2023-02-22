@@ -55,12 +55,12 @@ window.addEventListener('scroll', function () {
 });
 
 function scrollUp() {
-    window.scrollBy(0, -2610);
+    window.scrollBy(0, -5000);
 }
 
 // Scroll Down Button
 function scrollDown() {
-    window.scrollBy(0, 2610);
+    window.scrollBy(0, 5000);
 }
 
 // loading
