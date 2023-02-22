@@ -54,16 +54,6 @@ window.addEventListener('scroll', function () {
     }
 });
 
-// window.addEventListener('scroll', function () {
-//     if (window.scrollY >= 2320) {
-//         scrollbtn.style.backgroundColor = "white";
-//         scrollbtn.style.color = "black";
-//     } else {
-//         scrollbtn.style.backgroundColor = "black";
-//         scrollbtn.style.color = "white";
-//     }
-// });
-
 function scrollUp() {
     window.scrollBy(0, -2610);
 }
@@ -72,3 +62,9 @@ function scrollUp() {
 function scrollDown() {
     window.scrollBy(0, 2610);
 }
+
+// loading
+let loadercontainer = document.getElementsByClassName("loadercontainer");
+setInterval(function loader() {
+    loadercontainer[0].style.display = "none";
+}, 3000);
