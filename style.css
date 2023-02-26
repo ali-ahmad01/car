@@ -165,11 +165,11 @@ header {
 }
 
 .scroll-down {
-    writing-mode: vertical-rl;
+    transform: rotate(90deg);
     color: white;
     position: absolute;
-    right: 70px;
-    top: 450px;
+    right: 30px;
+    top: 490px;
     font-size: 18px;
     cursor: pointer;
     background-color: transparent;
