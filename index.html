@@ -56,7 +56,8 @@
         </div>
 
         <!-- scroll down -->
-        <button type="button" class="scroll-down" onclick="scrollDown()">Scroll Down <i class="bi bi-arrow-right"></i></button>
+        <button type="button" class="scroll-down" onclick="scrollDown()">Scroll Down <i
+                class="bi bi-arrow-right"></i></button>
     </header>
 
     <!-- Services -->
@@ -189,16 +190,16 @@
             <div class="contact-2">
                 <h1 class="contact-h2">Get in Touch</h1>
                 <form class="form-1">
-                    <h1 class="inp-icon" for="name"><ion-icon name="person-sharp"></ion-icon></h1>
+                    <label class="inp-icon" for="name"><ion-icon name="person-sharp"></ion-icon></label>
                     <input type="text" id="name" name="name" placeholder="Name" class="input-1">
                 </form>
                 <form class="form-2">
-                    <h1 class="inp-icon" for="email"><ion-icon name="mail-sharp"></ion-icon></h1>
+                    <label class="inp-icon" for="email"><ion-icon name="mail-sharp"></ion-icon></label>
                     <input type="email" id="email" name="email" placeholder="Email" class="input-2">
                 </form>
                 <form class="form-3">
-                    <h1 class="inp-icon"><ion-icon name="call-sharp"></ion-icon></h1>
-                    <input type="text" placeholder="Number" class="input-3">
+                    <label class="inp-icon" for="number"><ion-icon name="call-sharp"></ion-icon></label>
+                    <input type="text" placeholder="Number" id="number" for="number" class="input-3">
                 </form>
                 <button type="button" class="contact-btn">Contact Now</button>
             </div>
@@ -265,4 +266,5 @@
     <!-- javascript link -->
     <script src="app.js"></script>
 </body>
+
 </html>
